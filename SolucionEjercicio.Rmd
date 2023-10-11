@@ -1,5 +1,5 @@
 ---
-title: "SolucionEjercicio"
+title: "Solucion Ejercicio. Análisis Exploratorio de Datos"
 author: "Pablo Vicente Martínez"
 output: html_document
 date: "2023-10-11"
