@@ -55,6 +55,15 @@ cat("Los animales que aparecen en ambos conjuntos son:\n", commonAnimals)
 ```
 
 + Usa setdiff para averiguar qué animales no están en ambos conjuntos. ¿Cuántos son ?. ¿Qué tipo de animales son?
+
+```{r}
+diffmammals <- setdiff(rownames(mammals), rownames(Animals2))
+cat("Los animales que aparecen en mammals pero no en Animals2 suman un total de", length(diffmammals), "y son los siguientes:\n", diffmammals, "\n")
+
+diffAnimals2 <- setdiff(rownames(Animals2), rownames(mammals))
+cat("Los animales que aparecen en Animals2 pero no en mammals suman un total de", length(diffAnimals2), "y son los siguientes:\n", diffAnimals2, "\n")
+```
+
 + Determina las diferencia entre los animales que no aparecen en ambos conjuntos.
 
 
