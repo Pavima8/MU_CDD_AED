@@ -66,5 +66,12 @@ cat("Los animales que aparecen en Animals2 pero no en mammals suman un total de"
 
 + Determina las diferencia entre los animales que no aparecen en ambos conjuntos.
 
+```{r}
+diffambos <- setdiff(diffAnimals2, diffmammals)
+
+diffambos2 <- setdiff(diffmammals, diffAnimals2)
+
+```
+
 
 
